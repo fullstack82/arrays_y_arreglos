@@ -95,4 +95,6 @@ $contactos = array(
 );
 echo "<br/>";
 
-var_dump($contactos[2]);
+foreach ($contactos as $key => $contacto){     // Hemos accedido al primer indice, luego estamos accediendo de manera fija a los elementos que hay dentro de los arrays;
+    var_dump($contacto['nombre']);             // No podemos agregar numeros, es un array asociativo;
+}

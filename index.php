@@ -22,10 +22,30 @@
 
 // Ejercicios array
 
-$peliculas = array('batman', 'spiderman', 'el señor de los anillos');
-$cantantes = ['2pac', 'drake', 'jennifer lopez'];
-// acceder a los distintos indices del array;
-$peliculas[0];
-echo $peliculas[2];
+$peliculas = array('batman', 'up', 'atlantis');
+$cantantes = ['maluma', 'prince roice', 'shakira'];
 
 
+//Recorrer con For;
+echo "<h1>Listado de peliculas</h1>";
+
+echo "<ul>";
+
+for ($i = 0; $i < count($peliculas); $i++) {
+    echo "<li>" . $peliculas[$i] . "</li>";
+}
+
+echo "</ul>";
+
+// Recorrer con Foreach; Este bucle esta espacialmente diseñado para recorrer arrays;
+
+echo "<h1>Listado de cantantes</h1>";
+
+echo "<ul>";
+
+
+foreach ($cantantes as $cantante) {
+    echo "<li>" . $cantante . "</li>";
+}
+
+echo "</ul>";

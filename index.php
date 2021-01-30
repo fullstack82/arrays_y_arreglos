@@ -53,7 +53,7 @@ echo "</ul>";
 
 // Arrays asociativos;
 
-$personas = array (
+$personas = array(
     'nombre' => 'Maria',
     'apellidos' => 'pinto',
     'edad' => 38
@@ -61,3 +61,38 @@ $personas = array (
 
 
 echo $personas['apellidos'];
+
+
+
+// Arrays multidimensionales;   Importantes para trabajar con bases de datos;
+
+$contactos = array(
+    array(
+        'nombre' => 'Lucia',
+        'apellidos' => 'pinto',
+        'edad' => 45
+    ),
+    array(
+        'nombre' => 'Maria',
+        'apellidos' => 'castro',
+        'edad' => 16
+    ),
+    array(
+        'nombre' => 'Marta',
+        'apellidos' => 'sanchez',
+        'edad' => 25
+    ),
+    array(
+        'nombre' => 'Lucas',
+        'apellidos' => 'lopez',
+        'edad' => 65
+    ),
+    array(
+        'nombre' => 'luisa',
+        'apellidos' => 'sabater',
+        'edad' => 56
+    ),
+);
+echo "<br/>";
+
+var_dump($contactos[2]);

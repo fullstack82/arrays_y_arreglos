@@ -16,3 +16,16 @@
 * es decir, un array de string. En otro caso $empleado[23] podria tomar como valor $empleado[23] = 2312. En este caso se trataria de un array de 
 * valores númericos.
 */
+
+
+
+
+// Ejercicios array
+
+$peliculas = array('batman', 'spiderman', 'el señor de los anillos');
+$cantantes = ['2pac', 'drake', 'jennifer lopez'];
+// acceder a los distintos indices del array;
+$peliculas[0];
+echo $peliculas[2];
+
+

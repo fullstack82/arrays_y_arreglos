@@ -49,3 +49,15 @@ foreach ($cantantes as $cantante) {
 }
 
 echo "</ul>";
+
+
+// Arrays asociativos;
+
+$personas = array (
+    'nombre' => 'Maria',
+    'apellidos' => 'pinto',
+    'edad' => 38
+);
+
+
+echo $personas['apellidos'];

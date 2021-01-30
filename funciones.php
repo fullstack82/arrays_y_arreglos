@@ -46,3 +46,17 @@ echo "<hr/>";
 $resultado = array_search('Drake', $cantantes);
 
 var_dump($resultado);
+
+
+echo "<br/>";
+// Count (contar número de elementos de un array);
+
+echo count($cantantes);
+echo "<br/>";
+// sizeof 
+
+echo sizeof($numeros);
+
+
+// Var_dump sirve para ver elementos tenemos dentro;
+var_dump($resultado);
